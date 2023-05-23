@@ -1,11 +1,3 @@
----
-title: "FIFA World Cup - Qatar 2022"
-author: "Stephen Barrie"
-date: "2022-11-25"
-code-fold: false
-categories: [Projects, Python]
-image: "trophy.jpg" 
----
 # FIFA World Cup - Qatar 2022
 
 At the time of writing the 2022 World Cup is already underway, with 32 teams battling it out in Qatar for the famous golden globe. I've lost touch a bit in recent years with football, and thought it would be interesting to use Python to get back up to speed. 
@@ -20,7 +12,7 @@ The data was sourced from [Sporting News](https://www.sportingnews.com/us/soccer
 
 Let's dive in! 
 
-![footbal dive.jpg](attachment:f0df3860-6413-47d9-a77f-4a1ce0f8c753.jpg)
+![](images/footbal dive.jpg)
 
 
 ```python
@@ -464,7 +456,7 @@ world_cup.describe(include=(np.number))
 ## You can't win anything with kids
 
 <div>
-<img src="Kids.jpg" width="300"/>
+<img src="images/Kids.jpg" width="300"/>
 </div>
 
 It turned out of course that Alan was wrong - Manchester United went on to win the English Premier league that season. There is no master recipe for success it seems at these tournaments. Some managers like to lean on the old guard, some like to throw the gauntlet down and give the kids a chance. Let's take a look at the age profile of the players using a [***histogram***](https://en.wikipedia.org/wiki/Histogram):
@@ -476,7 +468,7 @@ world_cup ['Age'].hist();
 
 
     
-![png](output_25_0.png)
+![](images/output_25_0.png)
     
 
 
@@ -792,7 +784,7 @@ plt.title(subtitle_string, fontsize=10)
 
 
     
-![png](output_35_1.png)
+![](images/output_35_1.png)
     
 
 
@@ -847,7 +839,7 @@ So Ghana and Ecaudor have the youngest squads (average age 24.73) whilst Iran ha
 ## Out with the old
 
 <div>
-<img src="added time.jpg" width="300"/>
+<img src="images/added time.jpg" width="300"/>
 </div>
 
 
@@ -1235,7 +1227,7 @@ So it looks like the youngest player at the tournament is Youssoufa Moukoko of G
 
 ## Are you experienced?
 
-![experience.jpg](attachment:721b1467-93f6-4d38-ac44-1e1b4f0ff1cc.jpg)
+![](images/experience.jpg)
 
 Although in some sports physical caps may not now always be given (whether at all or for each appearance) the term cap for an international or other appearance has been retained as an indicator of the number of occasions on which a sportsperson has represented a team in a particular sport. Thus, a "cap" is awarded for each game played and so a player who has played x games for the team is said to have been capped x times or have won x caps.
 
@@ -1248,7 +1240,7 @@ world_cup ['Caps'].hist();
 
 
     
-![png](output_49_0.png)
+![](images/output_49_0.png)
     
 
 
@@ -1403,7 +1395,7 @@ Cristiano Ronaldo is the most capped player at the tournament with 191. The 200 
 ## Baptism of fire?
 
 <div>
-<img src="baptism.jpg" width="300"/>
+<img src="images/baptism.jpg" width="300"/>
 </div>
 
 
@@ -1804,7 +1796,7 @@ plt.title(subtitle_string, fontsize=10)
 
 
     
-![png](output_59_1.png)
+![](images/output_59_1.png)
     
 
 
@@ -1992,7 +1984,7 @@ plt.title(subtitle_string, fontsize=16)
 
 
     
-![png](output_69_1.png)
+![](images/output_69_1.png)
     
 
 
@@ -2042,7 +2034,7 @@ plt.title(subtitle_string, fontsize=16)
 
 
     
-![png](output_72_1.png)
+![](images/output_72_1.png)
     
 
 
@@ -2051,7 +2043,7 @@ Al-Sadd, wo play in the Qatar Stars league have 13 players (all playing for Qata
 ## Scotland
 
 <div>
-<img src="scotland_flag.jpg" width="300"/>
+<img src="images/Flag-of-Scotland.jpg" width="300"/>
 </div>
 
 
@@ -2277,7 +2269,7 @@ Interestingly, out of the 12 players who play their club football in Scotland, 6
 ## Poland
 
 <div>
-<img src="poland.jpg" width="200"/>
+<img src="images/poland.jpg" width="200"/>
 </div>
 
 
@@ -2801,7 +2793,7 @@ poland
 
 ## Home and Away
 
-![home and away.jpg](attachment:1693bed6-de0c-4570-b6e2-e4b440a8abb6.jpg)
+![](images/home and away.jpg)
 
 These days players travel far and wide to ply their trade. I wondered what the impact of that might be on the tightness of a squad, and thought it would be interesting to take a closer look at where players play domestically.
 
@@ -2838,7 +2830,7 @@ home_away_plot.plot(kind='barh', stacked=True)
 
 
     
-![png](output_91_1.png)
+![](images/output_91_1.png)
     
 
 
@@ -2846,7 +2838,7 @@ That's quite insightful and re-emphasises that most players do play their club f
 
 ## Huddle
 
-![huddle.jpg](attachment:e9598d9a-8c82-4ec0-8f58-bde7a1bc8b47.jpg)
+![](images/huddle.jpg)
 
 We have already established that the total distance for Saudi Arabia and Qatar is zero (their squads all play club football locally), but let's try to establish just how far flung the other squads are, by calculating the distance for each player from their nation's capital to the capital of the country where they play their club football. 
 
@@ -3315,7 +3307,7 @@ That's not quite as concise as we would like - we have 1936 pairings. That's bec
 
 ### Going the extra mile
 
-![proclaimers.jpg](attachment:9d9a872c-ad5b-4cb8-b9be-34a26625721f.jpg)
+![](images/proclaimers.jpg)
 
 We can calculate the distance between two locations using [Haversine](https://pypi.org/project/haversine/). Let's create a function that allows us to return values for all our pairings:
 
@@ -4242,7 +4234,7 @@ plt.title(subtitle_string, fontsize=10)
 
 
     
-![png](output_129_1.png)
+![](images/output_129_1.png)
     
 
 
@@ -4294,7 +4286,7 @@ inner_join.groupby("Country")["Distance_miles"].sum().sort_values(ascending=True
 ## Full time
 
 <div>
-<img src="final_whistle.jpg" width="300"/>
+<img src="images/final_whistle.jpg" width="300"/>
 </div>
 
 
