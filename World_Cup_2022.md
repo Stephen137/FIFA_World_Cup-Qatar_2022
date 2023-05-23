@@ -2793,7 +2793,7 @@ poland
 
 ## Home and Away
 
-![](images/home and away.jpg)
+![](images/home_and_away.jpg)
 
 These days players travel far and wide to ply their trade. I wondered what the impact of that might be on the tightness of a squad, and thought it would be interesting to take a closer look at where players play domestically.
 
