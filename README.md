@@ -12,7 +12,7 @@ The data was sourced from [Sporting News](https://www.sportingnews.com/us/soccer
 
 Let's dive in! 
 
-![](images/footbal dive.jpg)
+![](images/football_dive.jpg)
 
 
 ```python
@@ -2038,7 +2038,7 @@ plt.title(subtitle_string, fontsize=16)
     
 
 
-Al-Sadd, wo play in the Qatar Stars league have 13 players (all playing for Qatar) at the tournament, closely followed by Barcelona with 12, Munich and Manchester City, with 11 and Manchester United having 10. Saudi Arabia's squad all play within Saudi Arabia, 7 of them for Al_Hilal.
+Al-Sadd, who play in the Qatar Stars league have 13 players (all playing for Qatar) at the tournament, closely followed by Barcelona with 12, Munich and Manchester City, with 11 and Manchester United having 10. Saudi Arabia's squad all play within Saudi Arabia, 7 of them for Al_Hilal.
 
 ## Scotland
 
